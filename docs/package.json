@@ -1,0 +1,22 @@
+{
+  "name": "Doc",
+  "version": "0.0.1",
+  "description": "Personal",
+  "main": "index.js",
+  "authors": {
+    "name": "TheLazyCat1311",
+    "email": "langphonglangvan@yahoo.com.vn"
+  },
+  "repository": "/Doc",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "@vuepress/cli": "^1.0.0-alpha.0"
+  }
+}
