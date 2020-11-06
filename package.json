@@ -1,14 +1,22 @@
 {
-  "name": "personal",
-  "version": "1.0.0",
-  "description": "Personal guide.",
+  "name": "Doc",
+  "version": "0.0.1",
+  "description": "Personal",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
+  "authors": {
+    "name": "TheLazyCat1311",
+    "email": "langphonglangvan@yahoo.com.vn"
   },
+  "repository": "/Doc",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
   },
-  "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "@vuepress/cli": "^1.0.0-alpha.0"
+  }
 }
